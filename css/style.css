@@ -138,14 +138,9 @@ hr {
 	color: #fff;
 }
 
-/* ハンバーガーメニューアイコンの切り替え */
-.navbar-custom .navbar-toggle .fa-bars:before {
-	content: "\f0c9"; /* Font Awesomeの三本線 (bars) のアイコン */
-}
-
-.navbar-custom .navbar-toggle:not(.collapsed) .fa-bars:before {
-	content: "\f00d"; /* Font Awesomeのバツ (times) のアイコン */
-	font-size: 1.2em; /* 少し大きくして見やすく調整 */
+/* メニューが開いている時にアイコンをバツ印に変更 */
+.navbar-toggle:not(.collapsed) .fa-bars:before {
+  content: "\f00d"; /* Font Awesomeのバツ印のコード */
 }
 
 .btn-default {
