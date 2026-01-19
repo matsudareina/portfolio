@@ -99,21 +99,15 @@ $('#nav').affix({
 		social_tools: false
 	});
 
-  /* --- ここから追加 --- */
+  /* --- ここからハンバーガーメニューアイコン修正コード --- */
 jQuery(document).ready(function($) {
-  // ナビゲーションメニューが開く瞬間に実行
-  $('.navbar-collapse').on('show.bs.collapse', function () {
-    // ハンバーガーボタンに is-open クラスを追加
-    $('.navbar-toggle').addClass('is-open');
-  });
-
-  // ナビゲーションメニューが閉じる瞬間に実行
-  $('.navbar-collapse').on('hide.bs.collapse', function () {
-    // ハンバーガーボタンから is-open クラスを削除
-    $('.navbar-toggle').removeClass('is-open');
+  // ハンバーガーボタン（.navbar-toggle）がクリックされた時の処理
+  $('.navbar-toggle').on('click', function() {
+    // 自分自身（クリックされたボタン）に 'is-open' クラスを付けたり消したりする
+    $(this).toggleClass('is-open');
   });
 });
-/* --- ここまで追加 --- */```
+/* --- ここまで --- */
 
 }());
 

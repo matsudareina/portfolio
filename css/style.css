@@ -138,9 +138,9 @@ hr {
 	color: #fff;
 }
 
-/* メニューが開いている時（ボタンに .is-open クラスがある時）にアイコンをバツ印に変更 */
+/* ボタンに .is-open クラスが付いたら、アイコンをバツ印にする */
 .navbar-toggle.is-open .fa-bars:before {
-  content: "\f00d"; /* Font Awesomeのバツ印(times)のコード */
+  content: "\f00d"; /* Font Awesomeのバツ印のコード */
 }
 
 .btn-default {
