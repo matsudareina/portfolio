@@ -137,6 +137,7 @@ hr {
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
+
 /* ハンバーガーメニューアイコンの切り替え */
 .navbar-custom .navbar-toggle .fa-bars:before {
 	content: "\f0c9"; /* Font Awesomeの三本線 (bars) のアイコン */
@@ -146,6 +147,7 @@ hr {
 	content: "\f00d"; /* Font Awesomeのバツ (times) のアイコン */
 	font-size: 1.2em; /* 少し大きくして見やすく調整 */
 }
+
 .btn-default {
 	color: #fff;
 	background-color: transparent;
@@ -756,4 +758,3 @@ header .intro-text {
 	padding: 10px 100px 20px 20px;
 }
 }
-
